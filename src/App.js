@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-//import { Counter } from './features/counter/Counter';
 import './App.css';
+import Topbar from './components/Topbar';
 import Header from './components/Header';
-import Home from './components/Home';
+import Home from './page/Home';
 
 function App() {
   return (
     <div className="App">
+    <Topbar />
     <Header /> 
     <Home />
     </div>

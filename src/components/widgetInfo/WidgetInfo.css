@@ -1,0 +1,14 @@
+.widgetContainer{
+    display: flex;
+   
+    margin-left: 50px;
+}
+.widgetDiv{
+flex: 1;
+margin: 0px 0px;
+border: 0.5px solid rgb(230, 225, 225);
+height: 110px;
+}
+.widgetTable{
+    width:100%
+}
